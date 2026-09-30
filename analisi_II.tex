@@ -1,0 +1,27 @@
+\documentclass[a4paper, 10pt, twoside]{article}
+
+\input{utility/utility}
+\input{utility/utility_matematica}
+
+% ---- pacchetti aggiuntivi richiesti dagli argomenti ----
+\usepackage{amsmath}    % aligned, dfrac, xrightarrow, ...
+\usepackage{float}      % per [H] nelle figure
+\usepackage{needspace}  % evita titoli orfani a fine pagina
+\newcommand{\Xconv}{\overline{\underline{X}}} % insieme di convergenza
+\begin{document}
+
+\Cover{Analisi Matematica II}{Nunzia Gavitone}
+
+% ---------------- Lezione 1 ----------------
+\input{argomenti/successioni-di-funzioni}
+
+% ---------------- Lezione 2 ----------------
+\input{argomenti/continuita-del-limite}
+\input{argomenti/passaggio-al-limite-integrale}
+\input{argomenti/passaggio-al-limite-derivata}
+
+
+\input{argomenti/serie-di-funzioni}
+\input{argomenti/serie-di-potenze}
+
+\end{document}

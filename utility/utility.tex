@@ -1,0 +1,66 @@
+%=============== LIBRERIA ===============
+\usepackage{lmodern}
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+
+% gestione dei font e gli spazi tra le righe
+\usepackage{setspace}
+\usepackage{setspace}
+\singlespace 
+
+% gestione tabelle
+\usepackage{tabularray}
+
+% gestione dei margini del pdf
+\usepackage{geometry}
+\geometry{a4paper, lmargin=2cm, rmargin=2cm, tmargin=2cm, bmargin=2cm}
+
+ % libreria per riferimenti esterni ed interni
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% libreria per l'indici
+\usepackage{makeidx}
+
+% gestione grafica e figure
+\usepackage{graphicx}
+\usepackage{wrapfig}
+% \usepackage[inkscapeformat=png]{svg}  % richiede inkscape: si usa il PNG in img/
+
+% scrivere in colonne diverse
+\usepackage{multicol}
+\setlength{\columnsep}{0.5cm}
+
+% RIGA
+\newcommand{\HRule}{\noindent\rule{\linewidth}{0.5mm}}
+
+% RIGA COLORATA
+\newcommand{\ColorHRule}[1]{\noindent\textcolor{#1}{\rule{\linewidth}{0.5mm}\\}}
+
+% CREAZIONE COVERPAGE
+\newcommand{\Cover}[2]{
+\begin{titlepage}
+    \begin{center}
+      % logo
+      \includegraphics[width=0.5\textwidth]{img/logo_unina.png}\\[1cm]
+  
+      \textsc{\Large A.A 2026/27 \\ CdS: Fisica}\\[2cm]
+  
+      \HRule \\[0.4cm]
+      {\large \bfseries #1 \\ prof: #2 \\[0.4cm]}
+      \HRule \\[3cm]
+  
+      \large\textbf{Studente:} Gianmarco Davini \\ Dipartimento di Fisica Ettore Pancini \\ Università Federico II\\[3cm]
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+}

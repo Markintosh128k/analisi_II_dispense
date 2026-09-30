@@ -1,0 +1,97 @@
+% librerie matematica
+\usepackage{siunitx} % fornisce dei typeset per i numeri e le unita di misura
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage{amsfonts}
+
+% emoji
+%\usepackage{fourier}
+% \usepackage{emoji}  % richiede LuaLaTeX + font emoji a colori
+
+% creazione dei Toast message
+\usepackage[many]{tcolorbox}
+
+% definizione di nuovi colori
+\usepackage{xcolor}
+
+% SIMBOLO MATEMATICO ESISTE ED E' UNICO
+\newcommand{\existsone}{\exists !}
+
+% INSIEMI MATEMATICI
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+
+% DEFINIZIONE
+\definecolor{myred}{RGB}{191,101,127}
+\definecolor{mygreen}{RGB}{0,168,107}
+
+\definecolor{myblue}{RGB}{0,127,255}
+\definecolor{myblue2}{RGB}{36,84,255}
+
+\definecolor{myyellow}{RGB}{255,191,0}
+\definecolor{mygray}{RGB}{83,104,120}
+
+% BOX VUOTI
+\newtcolorbox{empty_green}{enhanced, toprule=0pt, bottomrule=0pt, rightrule=0pt, leftrule=3pt, arc=0mm, skin=enhancedlast jigsaw, sharp corners,
+colframe=mygreen, colbacktitle=mygreen}
+
+\newtcolorbox{empty_red}{enhanced, toprule=0pt, bottomrule=0pt, rightrule=0pt, leftrule=3pt, arc=0mm, skin=enhancedlast jigsaw, sharp corners,
+colframe=myred, colbacktitle=myred}
+
+\newtcolorbox{empty_blue}{enhanced, toprule=0pt, bottomrule=0pt, rightrule=0pt, leftrule=3pt, arc=0mm, skin=enhancedlast jigsaw, sharp corners,
+colframe=myblue, colbacktitle=myblue}
+
+\newtcolorbox{empty_yellow}{enhanced, toprule=0pt, bottomrule=0pt, rightrule=0pt, leftrule=3pt, arc=0mm, skin=enhancedlast jigsaw, sharp corners,
+colframe=myyellow, colbacktitle=myyellow}
+
+
+\newcommand{\BoxRed}[3]{
+    \begin{empty_red}
+        \textcolor{myred}{\textbf{#1} \textbf{#2}}\\
+        \noindent #3
+    \end{empty_red}
+}
+
+\newcommand{\BoxGreen}[3]{
+    \begin{empty_green}
+        \textcolor{mygreen}{\textbf{#1} \textbf{#2}}\\
+        \noindent #3
+    \end{empty_green}
+}
+
+\newcommand{\BoxBlue}[3]{
+    \begin{empty_blue}
+        \textcolor{myblue}{\textbf{#1} \textbf{#2}}\\
+        \noindent #3
+    \end{empty_blue}
+}
+
+\newcommand{\Attenzione}[1]{
+    \begin{empty_yellow}
+        \textbf{\Large !}\enspace #1
+    \end{empty_yellow}
+}
+
+\newcommand{\Definizione}[2]{
+    \begin{empty_green}
+         \textcolor{mygreen}{\textbf{Definizione (#1)}}\\
+        \noindent #2
+    \end{empty_green}
+}
+
+\newcommand{\Teorema}[2]{
+    \begin{empty_red}
+        \textcolor{myred}{\textbf{Teorema (#1)}}\\
+        \noindent #2
+    \end{empty_red}
+}
+
+\newcommand{\Dimostrazione}[1]{
+    \begin{empty_blue}
+        \textcolor{myblue}{\textbf{Dimostrazione}}\\
+        \noindent \textcolor{myblue}{#1}
+    \end{empty_blue}
+}
