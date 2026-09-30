@@ -1,0 +1,66 @@
+% =====================================================================
+% Analisi Matematica II -- Lezione 4 (aa)
+% Derivazione per serie (le serie di potenze sono in serie-di-potenze.tex).
+% Fonti: appunti manoscritti (pp. 1--2) + audio "Analisi II - Lezione 4".
+% =====================================================================
+
+% [0:00:32]
+\section{Teorema di derivazione per serie}
+
+% [0:00:00]
+Passando dalle successioni di funzioni (convergenza puntuale e uniforme) alle
+serie di funzioni i tipi di convergenza sono diventati quattro: puntuale,
+uniforme, assoluta e totale. Come per le successioni valgono il teorema di
+continuità del limite e quello di passaggio al limite sotto il segno di
+integrale, per le serie valgono la continuità della somma e l'integrazione per
+serie. % [0:00:32]
+Manca l'analogo del passaggio al limite sotto il segno di derivata: la
+\emph{derivazione per serie}.
+
+\paragraph{Teorema (derivazione per serie).} Siano $f_n\colon[a,b]\to\mathbb{R}$,
+$n\in\mathbb{N}$, tali che:
+\begin{enumerate}
+  \item $f_n\in C^1([a,b])$ per ogni $n$;
+  \item la serie converge puntualmente in $[a,b]$:
+  \[
+    \sum_{n=0}^{\infty} f_n(x)\xrightarrow{\;P\;} S(x)\quad\text{in }[a,b];
+  \]
+  \item la serie delle derivate converge uniformemente in $[a,b]$:
+  \[
+    \sum_{n=0}^{\infty} f_n'(x)\xrightarrow{\;U\;} G(x)\quad\text{in }[a,b].
+  \]
+\end{enumerate}
+Allora
+\[
+  S\in C^1([a,b]),\qquad S'(x)=G(x)\quad\forall x\in[a,b],
+\]
+cioè si può derivare termine a termine:
+\[
+  \frac{d}{dx}\sum_{n=0}^{\infty} f_n(x)=\sum_{n=0}^{\infty} f_n'(x).
+\]
+Inoltre (è implicito) la successione delle somme parziali converge
+uniformemente:
+\[
+  S_n(x)=\sum_{k=0}^{n} f_k(x)\xrightarrow{\;U\;} S(x)\quad\text{in }[a,b].
+\]
+
+\paragraph{Dimostrazione.} % [0:05:16]
+È quella del teorema di passaggio al limite sotto il segno di derivata per le
+successioni di funzioni, applicato alla successione delle somme parziali $S_n$.
+
+\paragraph{Osservazione (perché questo enunciato).}
+% [0:01:51]
+Il teorema per le successioni chiedeva la convergenza in un solo punto $x_0$;
+qui si chiede la convergenza puntuale in tutto $[a,b]$. L'enunciato sembra più
+debole, ma è scritto nella forma in cui servirà per le serie di potenze.
+% [0:05:16]
+Il motivo è pratico: per una successione la terza ipotesi si verifica a mano,
+mentre per una serie la convergenza uniforme delle derivate si ottiene in
+pratica solo tramite la convergenza totale, cioè cercando una $M_n$
+indipendente da $x$. Così si studia la serie in tutte le $x$, e in genere anche
+la serie di partenza converge già ovunque: tanto vale chiederne la convergenza
+puntuale in tutto $[a,b]$.
+% [0:04:02]
+La convergenza uniforme delle $S_n$ nella tesi non è un fatto nuovo: è quella
+fornita dal teorema sulle successioni.
+

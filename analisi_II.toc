@@ -1,155 +1,312 @@
 \babel@toc {italian}{}\relax 
 \babel@toc {italian}{}\relax 
-\contentsline {section}{\numberline {1}Successioni di funzioni}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Motivazione: da Taylor alle serie di funzioni}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Definizione}{3}{subsection.1.2}%
-\contentsline {paragraph}{Esempio 1.}{4}{section*.2}%
-\contentsline {subsection}{\numberline {1.3}Rappresentazione grafica}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Convergenza puntuale}{5}{subsection.1.4}%
-\contentsline {paragraph}{Notazione.}{5}{section*.3}%
-\contentsline {subsection}{\numberline {1.5}Calcolo del limite puntuale: esempi}{5}{subsection.1.5}%
-\contentsline {paragraph}{Esempio 1 (ripreso).}{5}{section*.4}%
-\contentsline {paragraph}{Esempio 2.}{5}{section*.5}%
-\contentsline {paragraph}{Esempio 3.}{5}{section*.6}%
-\contentsline {paragraph}{Esempio 4.}{6}{section*.7}%
-\contentsline {paragraph}{Esempio 5.}{6}{section*.8}%
-\contentsline {subsection}{\numberline {1.6}I limiti della convergenza puntuale}{7}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Convergenza uniforme}{7}{subsection.1.7}%
-\contentsline {paragraph}{Interpretazione grafica.}{8}{section*.9}%
-\contentsline {subsection}{\numberline {1.8}Caratterizzazione con l'estremo superiore}{8}{subsection.1.8}%
-\contentsline {paragraph}{Ricetta operativa.}{9}{section*.10}%
-\contentsline {subsection}{\numberline {1.9}Uniforme implica puntuale}{9}{subsection.1.9}%
-\contentsline {subsection}{\numberline {1.10}Esempi}{9}{subsection.1.10}%
-\contentsline {paragraph}{Esempio 1 (ripreso): $f_n(x) = x/n$.}{9}{section*.11}%
-\contentsline {paragraph}{Esempio 4 (ripreso): $f_n(x) = x^n$.}{9}{section*.12}%
-\contentsline {paragraph}{Esempio 5 (ripreso): $f_n(x) = x^{1/n}$.}{10}{section*.13}%
-\contentsline {subsection}{\numberline {1.11}Esercizio svolto}{10}{subsection.1.11}%
-\contentsline {paragraph}{Testo.}{10}{section*.14}%
-\contentsline {paragraph}{1. Limite puntuale.}{10}{section*.15}%
-\contentsline {paragraph}{2. Convergenza uniforme.}{10}{section*.16}%
-\contentsline {paragraph}{Conclusione.}{11}{section*.17}%
-\contentsline {subsection}{\numberline {1.12}Riepilogo}{11}{subsection.1.12}%
-\contentsline {section}{\numberline {2}Teorema di continuità del limite}{11}{section.2}%
-\contentsline {paragraph}{In aula.}{11}{section*.18}%
-\contentsline {subsection}{\numberline {2.1}Enunciato}{12}{subsection.2.1}%
-\contentsline {paragraph}{In aula.}{12}{section*.19}%
-\contentsline {paragraph}{In aula.}{12}{section*.20}%
-\contentsline {paragraph}{In aula.}{12}{section*.21}%
-\contentsline {subsection}{\numberline {2.2}Dimostrazione}{12}{subsection.2.2}%
-\contentsline {paragraph}{In aula.}{13}{section*.22}%
-\contentsline {subsection}{\numberline {2.3}Un esempio con limite discontinuo in un punto}{13}{subsection.2.3}%
-\contentsline {paragraph}{Esempio.}{13}{section*.23}%
-\contentsline {paragraph}{In aula.}{14}{section*.24}%
-\contentsline {section}{\numberline {3}Passaggio al limite sotto il segno di integrale}{14}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Il problema}{14}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Enunciato}{15}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Due esempi}{15}{subsection.3.3}%
-\contentsline {paragraph}{Esempio 1.}{15}{section*.25}%
-\contentsline {paragraph}{In aula.}{16}{section*.26}%
-\contentsline {paragraph}{Esempio 2.}{16}{section*.27}%
-\contentsline {paragraph}{In aula.}{17}{section*.28}%
-\contentsline {subsection}{\numberline {3.4}Dimostrazione}{17}{subsection.3.4}%
-\contentsline {paragraph}{In aula.}{17}{section*.29}%
-\contentsline {paragraph}{In aula.}{17}{section*.30}%
-\contentsline {section}{\numberline {4}Passaggio al limite sotto il segno di derivata}{17}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Perché il problema è più delicato}{17}{subsection.4.1}%
-\contentsline {paragraph}{In aula.}{17}{section*.31}%
-\contentsline {subsection}{\numberline {4.2}Esempio 1: il limite può non essere derivabile}{17}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Esempio 2: le derivate possono non convergere}{18}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Esempio 3: le derivate convergono, ma solo puntualmente}{19}{subsection.4.4}%
-\contentsline {paragraph}{In aula.}{19}{section*.32}%
-\contentsline {subsection}{\numberline {4.5}Enunciato}{20}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Dimostrazione}{20}{subsection.4.6}%
-\contentsline {paragraph}{Passo 1: costruire $f$.}{20}{section*.33}%
-\contentsline {paragraph}{Passo 2: la tesi T2.}{20}{section*.34}%
-\contentsline {paragraph}{Passo 3: la tesi T1.}{21}{section*.35}%
-\contentsline {section}{\numberline {5}La convergenza uniforme non conserva la discontinuità}{21}{section.5}%
-\contentsline {paragraph}{Risposta alla prima domanda.}{21}{section*.36}%
-\contentsline {paragraph}{In aula.}{21}{section*.37}%
-\contentsline {section}{\numberline {6}Criteri di Cauchy per le successioni di funzioni}{22}{section.6}%
-\contentsline {paragraph}{Criterio di Cauchy per la convergenza puntuale.}{22}{section*.38}%
-\contentsline {paragraph}{In aula.}{22}{section*.39}%
-\contentsline {paragraph}{Criterio di Cauchy per la convergenza uniforme.}{22}{section*.40}%
-\contentsline {paragraph}{In aula.}{22}{section*.41}%
-\contentsline {paragraph}{In aula.}{22}{section*.42}%
-\contentsline {paragraph}{In aula.}{22}{section*.43}%
-\contentsline {section}{\numberline {7}Serie di funzioni}{22}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Definizione}{22}{subsection.7.1}%
-\contentsline {paragraph}{Definizione.}{22}{section*.44}%
-\contentsline {paragraph}{Osservazione.}{22}{section*.45}%
-\contentsline {paragraph}{In aula.}{22}{section*.46}%
-\contentsline {paragraph}{In aula.}{23}{section*.47}%
-\contentsline {paragraph}{In aula.}{23}{section*.48}%
-\contentsline {subsection}{\numberline {7.2}Esempio 1: la serie geometrica}{23}{subsection.7.2}%
-\contentsline {paragraph}{Esempio.}{23}{section*.49}%
-\contentsline {paragraph}{In aula.}{23}{section*.50}%
-\contentsline {paragraph}{In aula.}{23}{section*.51}%
-\contentsline {subsection}{\numberline {7.3}Esempio 2: una serie a segni alterni}{23}{subsection.7.3}%
-\contentsline {paragraph}{Esempio.}{23}{section*.52}%
-\contentsline {paragraph}{In aula.}{24}{section*.53}%
-\contentsline {subsection}{\numberline {7.4}Convergenza assoluta}{24}{subsection.7.4}%
-\contentsline {paragraph}{Definizione.}{24}{section*.54}%
-\contentsline {paragraph}{Esempio.}{24}{section*.55}%
-\contentsline {paragraph}{In aula.}{24}{section*.56}%
-\contentsline {subsection}{\numberline {7.5}Criteri di Cauchy per le serie di funzioni}{24}{subsection.7.5}%
-\contentsline {paragraph}{Criterio di Cauchy (convergenza puntuale).}{24}{section*.57}%
-\contentsline {paragraph}{Criterio di Cauchy (convergenza uniforme).}{24}{section*.58}%
-\contentsline {paragraph}{In aula.}{24}{section*.59}%
-\contentsline {subsection}{\numberline {7.6}Condizione necessaria per la convergenza uniforme}{24}{subsection.7.6}%
-\contentsline {paragraph}{Teorema.}{24}{section*.60}%
-\contentsline {paragraph}{Dimostrazione.}{25}{section*.61}%
-\contentsline {paragraph}{In aula.}{25}{section*.62}%
-\contentsline {subsection}{\numberline {7.7}Convergenza totale e criterio di Weierstrass}{25}{subsection.7.7}%
-\contentsline {paragraph}{Definizione (convergenza totale).}{25}{section*.63}%
-\contentsline {paragraph}{Osservazione.}{25}{section*.64}%
-\contentsline {paragraph}{In aula.}{25}{section*.65}%
-\contentsline {paragraph}{In aula.}{25}{section*.66}%
-\contentsline {paragraph}{Teorema (criterio di Weierstrass).}{25}{section*.67}%
-\contentsline {paragraph}{Dimostrazione.}{25}{section*.68}%
-\contentsline {paragraph}{In aula.}{25}{section*.69}%
-\contentsline {paragraph}{In aula.}{25}{section*.70}%
-\contentsline {paragraph}{In aula.}{25}{section*.71}%
-\contentsline {subsection}{\numberline {7.8}Teorema di integrazione per serie}{26}{subsection.7.8}%
-\contentsline {paragraph}{Teorema.}{26}{section*.72}%
-\contentsline {paragraph}{Dimostrazione.}{26}{section*.73}%
-\contentsline {paragraph}{In aula.}{26}{section*.74}%
-\contentsline {paragraph}{In aula (esercizio).}{26}{section*.75}%
-\contentsline {section}{\numberline {8}Teorema di derivazione per serie}{26}{section.8}%
-\contentsline {paragraph}{Teorema (derivazione per serie).}{27}{section*.76}%
-\contentsline {paragraph}{Dimostrazione.}{27}{section*.77}%
-\contentsline {paragraph}{Osservazione (perché questo enunciato).}{27}{section*.78}%
-\contentsline {section}{\numberline {9}Serie di potenze}{27}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Definizione}{27}{subsection.9.1}%
-\contentsline {paragraph}{Definizione.}{27}{section*.79}%
-\contentsline {paragraph}{Osservazione.}{28}{section*.80}%
-\contentsline {paragraph}{Osservazione (legame con Taylor).}{28}{section*.81}%
-\contentsline {paragraph}{Osservazione.}{28}{section*.82}%
-\contentsline {paragraph}{Riduzione al caso $x_0=0$.}{28}{section*.83}%
-\contentsline {subsection}{\numberline {9.2}Insieme di convergenza e raggio di convergenza}{28}{subsection.9.2}%
-\contentsline {paragraph}{Definizione (insieme di convergenza).}{28}{section*.84}%
-\contentsline {paragraph}{Definizione (raggio di convergenza).}{28}{section*.85}%
-\contentsline {paragraph}{Osservazione.}{28}{section*.86}%
-\contentsline {paragraph}{Esempio (serie geometrica).}{29}{section*.87}%
-\contentsline {subsection}{\numberline {9.3}La forma dell'insieme di convergenza}{29}{subsection.9.3}%
-\contentsline {paragraph}{Teorema 1.}{29}{section*.88}%
-\contentsline {paragraph}{Osservazione.}{29}{section*.89}%
-\contentsline {paragraph}{Dimostrazione della parte 1.}{30}{section*.90}%
-\contentsline {paragraph}{Osservazione.}{30}{section*.93}%
-\contentsline {paragraph}{Dimostrazione della parte 2.}{30}{section*.94}%
-\contentsline {paragraph}{Osservazione (gli estremi).}{30}{section*.95}%
-\contentsline {subsection}{\numberline {9.4}Il raggio di convergenza}{30}{subsection.9.4}%
-\contentsline {paragraph}{Teorema 2.}{32}{section*.96}%
-\contentsline {paragraph}{Osservazione (il candidato insieme di convergenza).}{32}{section*.97}%
-\contentsline {paragraph}{Questioni aperte.}{32}{section*.98}%
-\contentsline {subsection}{\numberline {9.5}Criterio di Hadamard}{32}{subsection.9.5}%
-\contentsline {paragraph}{Teorema (criterio di Hadamard).}{32}{section*.99}%
-\contentsline {paragraph}{Richiamo (criterio della radice per le serie numeriche).}{32}{section*.100}%
-\contentsline {paragraph}{Dimostrazione.}{33}{section*.101}%
-\contentsline {subsection}{\numberline {9.6}Criterio di D'Alembert}{33}{subsection.9.6}%
-\contentsline {paragraph}{Teorema (criterio di D'Alembert).}{33}{section*.102}%
-\contentsline {paragraph}{Dimostrazione.}{33}{section*.103}%
-\contentsline {paragraph}{Osservazione (non dimenticare i moduli).}{33}{section*.104}%
-\contentsline {paragraph}{Osservazione (radice o rapporto).}{33}{section*.105}%
-\contentsline {subsection}{\numberline {9.7}Esempio svolto}{34}{subsection.9.7}%
-\contentsline {paragraph}{Esempio.}{34}{section*.106}%
-\contentsline {paragraph}{Osservazione (serie di potenze e Taylor).}{34}{section*.107}%
+\contentsline {part}{I\hspace {1em}Successioni di funzioni}{5}{part.1}%
+\contentsline {section}{\numberline {1}Successioni di funzioni}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivazione: da Taylor alle serie di funzioni}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Definizione}{5}{subsection.1.2}%
+\contentsline {paragraph}{Esempio 1.}{6}{section*.2}%
+\contentsline {subsection}{\numberline {1.3}Rappresentazione grafica}{6}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Convergenza puntuale}{7}{subsection.1.4}%
+\contentsline {paragraph}{Notazione.}{7}{section*.3}%
+\contentsline {subsection}{\numberline {1.5}Calcolo del limite puntuale: esempi}{7}{subsection.1.5}%
+\contentsline {paragraph}{Esempio 1 (ripreso).}{7}{section*.4}%
+\contentsline {paragraph}{Esempio 2.}{7}{section*.5}%
+\contentsline {paragraph}{Esempio 3.}{7}{section*.6}%
+\contentsline {paragraph}{Esempio 4.}{8}{section*.7}%
+\contentsline {paragraph}{Esempio 5.}{8}{section*.8}%
+\contentsline {subsection}{\numberline {1.6}I limiti della convergenza puntuale}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Convergenza uniforme}{9}{subsection.1.7}%
+\contentsline {paragraph}{Interpretazione grafica.}{10}{section*.9}%
+\contentsline {subsection}{\numberline {1.8}Caratterizzazione con l'estremo superiore}{10}{subsection.1.8}%
+\contentsline {paragraph}{Ricetta operativa.}{11}{section*.10}%
+\contentsline {subsection}{\numberline {1.9}Uniforme implica puntuale}{11}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Esempi}{11}{subsection.1.10}%
+\contentsline {paragraph}{Esempio 1 (ripreso): $f_n(x) = x/n$.}{11}{section*.11}%
+\contentsline {paragraph}{Esempio 4 (ripreso): $f_n(x) = x^n$.}{11}{section*.12}%
+\contentsline {paragraph}{Esempio 5 (ripreso): $f_n(x) = x^{1/n}$.}{12}{section*.13}%
+\contentsline {subsection}{\numberline {1.11}Esercizio svolto}{12}{subsection.1.11}%
+\contentsline {paragraph}{Testo.}{12}{section*.14}%
+\contentsline {paragraph}{1. Limite puntuale.}{12}{section*.15}%
+\contentsline {paragraph}{2. Convergenza uniforme.}{12}{section*.16}%
+\contentsline {paragraph}{Conclusione.}{13}{section*.17}%
+\contentsline {subsection}{\numberline {1.12}Riepilogo}{13}{subsection.1.12}%
+\contentsline {section}{\numberline {2}Teorema di continuità del limite}{13}{section.2}%
+\contentsline {paragraph}{In aula.}{13}{section*.18}%
+\contentsline {subsection}{\numberline {2.1}Enunciato}{14}{subsection.2.1}%
+\contentsline {paragraph}{In aula.}{14}{section*.19}%
+\contentsline {paragraph}{In aula.}{14}{section*.20}%
+\contentsline {paragraph}{In aula.}{14}{section*.21}%
+\contentsline {subsection}{\numberline {2.2}Dimostrazione}{14}{subsection.2.2}%
+\contentsline {paragraph}{In aula.}{15}{section*.22}%
+\contentsline {subsection}{\numberline {2.3}Un esempio con limite discontinuo in un punto}{15}{subsection.2.3}%
+\contentsline {paragraph}{Esempio.}{15}{section*.23}%
+\contentsline {paragraph}{In aula.}{16}{section*.24}%
+\contentsline {section}{\numberline {3}Passaggio al limite sotto il segno di integrale}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Il problema}{16}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Enunciato}{17}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Due esempi}{17}{subsection.3.3}%
+\contentsline {paragraph}{Esempio 1.}{17}{section*.25}%
+\contentsline {paragraph}{In aula.}{18}{section*.26}%
+\contentsline {paragraph}{Esempio 2.}{18}{section*.27}%
+\contentsline {paragraph}{In aula.}{19}{section*.28}%
+\contentsline {subsection}{\numberline {3.4}Dimostrazione}{19}{subsection.3.4}%
+\contentsline {paragraph}{In aula.}{19}{section*.29}%
+\contentsline {paragraph}{In aula.}{19}{section*.30}%
+\contentsline {section}{\numberline {4}Passaggio al limite sotto il segno di derivata}{19}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Perché il problema è più delicato}{19}{subsection.4.1}%
+\contentsline {paragraph}{In aula.}{19}{section*.31}%
+\contentsline {subsection}{\numberline {4.2}Esempio 1: il limite può non essere derivabile}{19}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Esempio 2: le derivate possono non convergere}{20}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Esempio 3: le derivate convergono, ma solo puntualmente}{21}{subsection.4.4}%
+\contentsline {paragraph}{In aula.}{21}{section*.32}%
+\contentsline {subsection}{\numberline {4.5}Enunciato}{22}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Dimostrazione}{22}{subsection.4.6}%
+\contentsline {paragraph}{Passo 1: costruire $f$.}{22}{section*.33}%
+\contentsline {paragraph}{Passo 2: la tesi T2.}{22}{section*.34}%
+\contentsline {paragraph}{Passo 3: la tesi T1.}{23}{section*.35}%
+\contentsline {section}{\numberline {5}La convergenza uniforme non conserva la discontinuità}{23}{section.5}%
+\contentsline {paragraph}{Risposta alla prima domanda.}{23}{section*.36}%
+\contentsline {paragraph}{In aula.}{23}{section*.37}%
+\contentsline {section}{\numberline {6}Criteri di Cauchy per le successioni di funzioni}{24}{section.6}%
+\contentsline {paragraph}{Criterio di Cauchy per la convergenza puntuale.}{24}{section*.38}%
+\contentsline {paragraph}{In aula.}{24}{section*.39}%
+\contentsline {paragraph}{Criterio di Cauchy per la convergenza uniforme.}{24}{section*.40}%
+\contentsline {paragraph}{In aula.}{24}{section*.41}%
+\contentsline {paragraph}{In aula.}{24}{section*.42}%
+\contentsline {paragraph}{In aula.}{24}{section*.43}%
+\contentsline {part}{II\hspace {1em}Serie di funzioni}{25}{part.2}%
+\contentsline {section}{\numberline {7}Serie di funzioni}{25}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Definizione}{25}{subsection.7.1}%
+\contentsline {paragraph}{Definizione.}{25}{section*.44}%
+\contentsline {paragraph}{Osservazione.}{25}{section*.45}%
+\contentsline {paragraph}{In aula.}{25}{section*.46}%
+\contentsline {paragraph}{In aula.}{25}{section*.47}%
+\contentsline {paragraph}{In aula.}{25}{section*.48}%
+\contentsline {subsection}{\numberline {7.2}Esempio 1: la serie geometrica}{25}{subsection.7.2}%
+\contentsline {paragraph}{Esempio.}{25}{section*.49}%
+\contentsline {paragraph}{In aula.}{26}{section*.50}%
+\contentsline {paragraph}{In aula.}{26}{section*.51}%
+\contentsline {subsection}{\numberline {7.3}Esempio 2: una serie a segni alterni}{26}{subsection.7.3}%
+\contentsline {paragraph}{Esempio.}{26}{section*.52}%
+\contentsline {paragraph}{In aula.}{26}{section*.53}%
+\contentsline {subsection}{\numberline {7.4}Convergenza assoluta}{26}{subsection.7.4}%
+\contentsline {paragraph}{Definizione.}{26}{section*.54}%
+\contentsline {paragraph}{Esempio.}{26}{section*.55}%
+\contentsline {paragraph}{In aula.}{26}{section*.56}%
+\contentsline {subsection}{\numberline {7.5}Criteri di Cauchy per le serie di funzioni}{27}{subsection.7.5}%
+\contentsline {paragraph}{Criterio di Cauchy (convergenza puntuale).}{27}{section*.57}%
+\contentsline {paragraph}{Criterio di Cauchy (convergenza uniforme).}{27}{section*.58}%
+\contentsline {paragraph}{In aula.}{27}{section*.59}%
+\contentsline {subsection}{\numberline {7.6}Condizione necessaria per la convergenza uniforme}{27}{subsection.7.6}%
+\contentsline {paragraph}{Teorema.}{27}{section*.60}%
+\contentsline {paragraph}{Dimostrazione.}{27}{section*.61}%
+\contentsline {paragraph}{In aula.}{27}{section*.62}%
+\contentsline {subsection}{\numberline {7.7}Convergenza totale e criterio di Weierstrass}{27}{subsection.7.7}%
+\contentsline {paragraph}{Definizione (convergenza totale).}{27}{section*.63}%
+\contentsline {paragraph}{Osservazione.}{27}{section*.64}%
+\contentsline {paragraph}{In aula.}{27}{section*.65}%
+\contentsline {paragraph}{In aula.}{27}{section*.66}%
+\contentsline {paragraph}{Teorema (criterio di Weierstrass).}{27}{section*.67}%
+\contentsline {paragraph}{Dimostrazione.}{28}{section*.68}%
+\contentsline {paragraph}{In aula.}{28}{section*.69}%
+\contentsline {paragraph}{In aula.}{28}{section*.70}%
+\contentsline {paragraph}{In aula.}{28}{section*.71}%
+\contentsline {subsection}{\numberline {7.8}Teorema di integrazione per serie}{28}{subsection.7.8}%
+\contentsline {paragraph}{Teorema.}{28}{section*.72}%
+\contentsline {paragraph}{Dimostrazione.}{28}{section*.73}%
+\contentsline {paragraph}{In aula.}{29}{section*.74}%
+\contentsline {paragraph}{In aula (esercizio).}{29}{section*.75}%
+\contentsline {section}{\numberline {8}Teorema di derivazione per serie}{29}{section.8}%
+\contentsline {paragraph}{Teorema (derivazione per serie).}{29}{section*.76}%
+\contentsline {paragraph}{Dimostrazione.}{29}{section*.77}%
+\contentsline {paragraph}{Osservazione (perché questo enunciato).}{30}{section*.78}%
+\contentsline {part}{III\hspace {1em}Serie di potenze}{31}{part.3}%
+\contentsline {section}{\numberline {9}Serie di potenze}{31}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Definizione}{31}{subsection.9.1}%
+\contentsline {paragraph}{Definizione.}{31}{section*.79}%
+\contentsline {paragraph}{Osservazione.}{31}{section*.80}%
+\contentsline {paragraph}{Osservazione (legame con Taylor).}{31}{section*.81}%
+\contentsline {paragraph}{Osservazione.}{31}{section*.82}%
+\contentsline {paragraph}{Riduzione al caso $x_0=0$.}{31}{section*.83}%
+\contentsline {subsection}{\numberline {9.2}Insieme di convergenza e raggio di convergenza}{32}{subsection.9.2}%
+\contentsline {paragraph}{Definizione (insieme di convergenza).}{32}{section*.84}%
+\contentsline {paragraph}{Definizione (raggio di convergenza).}{32}{section*.85}%
+\contentsline {paragraph}{Osservazione.}{32}{section*.86}%
+\contentsline {paragraph}{Esempio (serie geometrica).}{32}{section*.87}%
+\contentsline {subsection}{\numberline {9.3}La forma dell'insieme di convergenza}{32}{subsection.9.3}%
+\contentsline {paragraph}{Teorema 1.}{32}{section*.88}%
+\contentsline {paragraph}{Osservazione.}{33}{section*.89}%
+\contentsline {paragraph}{Dimostrazione della parte 1.}{33}{section*.90}%
+\contentsline {paragraph}{Osservazione.}{34}{section*.93}%
+\contentsline {paragraph}{Dimostrazione della parte 2.}{34}{section*.94}%
+\contentsline {paragraph}{Osservazione (gli estremi).}{34}{section*.95}%
+\contentsline {subsection}{\numberline {9.4}Il raggio di convergenza}{34}{subsection.9.4}%
+\contentsline {paragraph}{Teorema 2.}{34}{section*.96}%
+\contentsline {paragraph}{Osservazione (il candidato insieme di convergenza).}{35}{section*.97}%
+\contentsline {paragraph}{Questioni aperte.}{35}{section*.98}%
+\contentsline {subsection}{\numberline {9.5}Criterio di Hadamard}{35}{subsection.9.5}%
+\contentsline {paragraph}{Teorema (criterio di Hadamard).}{35}{section*.99}%
+\contentsline {paragraph}{Richiamo (criterio della radice per le serie numeriche).}{36}{section*.100}%
+\contentsline {paragraph}{Dimostrazione.}{36}{section*.101}%
+\contentsline {subsection}{\numberline {9.6}Criterio di D'Alembert}{36}{subsection.9.6}%
+\contentsline {paragraph}{Teorema (criterio di D'Alembert).}{36}{section*.102}%
+\contentsline {paragraph}{Dimostrazione.}{36}{section*.103}%
+\contentsline {paragraph}{Osservazione (non dimenticare i moduli).}{36}{section*.104}%
+\contentsline {paragraph}{Osservazione (radice o rapporto).}{37}{section*.105}%
+\contentsline {subsection}{\numberline {9.7}Esempio svolto}{37}{subsection.9.7}%
+\contentsline {paragraph}{Esempio.}{37}{section*.106}%
+\contentsline {paragraph}{Osservazione (serie di potenze e Taylor).}{37}{section*.107}%
+\contentsline {section}{\numberline {10}Richiami sulle serie di potenze}{38}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Teorema di Abel}{38}{subsection.10.1}%
+\contentsline {paragraph}{Teorema (di Abel, senza dimostrazione).}{38}{section*.108}%
+\contentsline {paragraph}{Osservazione.}{38}{section*.109}%
+\contentsline {paragraph}{Esempio.}{38}{section*.110}%
+\contentsline {subsection}{\numberline {10.2}Serie di potenze non centrate nell'origine}{39}{subsection.10.2}%
+\contentsline {paragraph}{Esempio.}{39}{section*.111}%
+\contentsline {paragraph}{Osservazione.}{39}{section*.112}%
+\contentsline {section}{\numberline {11}Continuità, derivazione e integrazione della somma}{39}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Continuità della somma}{40}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Serie derivata}{40}{subsection.11.2}%
+\contentsline {paragraph}{Proposizione.}{40}{section*.113}%
+\contentsline {paragraph}{Dimostrazione.}{41}{section*.114}%
+\contentsline {subsection}{\numberline {11.3}Serie degli integrali}{41}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Teoremi di derivazione e integrazione per serie di potenze}{41}{subsection.11.4}%
+\contentsline {paragraph}{Teorema (derivazione per serie di potenze).}{41}{section*.115}%
+\contentsline {paragraph}{Teorema (integrazione per serie di potenze).}{41}{section*.116}%
+\contentsline {paragraph}{Osservazione (calcolo di somme).}{42}{section*.117}%
+\contentsline {subsection}{\numberline {11.5}Esercizio svolto}{42}{subsection.11.5}%
+\contentsline {paragraph}{Attenzione all'indice iniziale.}{42}{section*.118}%
+\contentsline {subsection}{\numberline {11.6}Serie riconducibili a serie di potenze}{42}{subsection.11.6}%
+\contentsline {paragraph}{Attenzione.}{43}{section*.119}%
+\contentsline {paragraph}{Osservazione.}{43}{section*.120}%
+\contentsline {section}{\numberline {12}Serie di Taylor}{43}{section.12}%
+\contentsline {paragraph}{Definizione.}{43}{section*.121}%
+\contentsline {subsection}{\numberline {12.1}Esempio 1: una funzione che non coincide con la sua serie di Taylor}{43}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Esempio 2: analiticità della somma di una serie di potenze}{44}{subsection.12.2}%
+\contentsline {paragraph}{Teorema (analiticità della somma di una serie di potenze).}{44}{section*.122}%
+\contentsline {paragraph}{Dimostrazione.}{44}{section*.123}%
+\contentsline {subsection}{\numberline {12.3}Funzioni analitiche}{44}{subsection.12.3}%
+\contentsline {paragraph}{Definizione.}{44}{section*.124}%
+\contentsline {paragraph}{Osservazione.}{44}{section*.125}%
+\contentsline {paragraph}{Esempio.}{45}{section*.126}%
+\contentsline {section}{\numberline {13}Criterio di analiticità}{45}{section.13}%
+\contentsline {paragraph}{Teorema (criterio di analiticità).}{45}{section*.127}%
+\contentsline {paragraph}{Esempio.}{45}{section*.128}%
+\contentsline {paragraph}{Osservazione (perché due costanti).}{45}{section*.129}%
+\contentsline {paragraph}{Dimostrazione.}{45}{section*.130}%
+\contentsline {paragraph}{Osservazione.}{46}{section*.131}%
+\contentsline {part}{IV\hspace {1em}Topologia in $\mathbb {R}^n$}{47}{part.4}%
+\contentsline {section}{\numberline {14}Topologia in $\mathbb {R}^n$}{47}{section.14}%
+\contentsline {paragraph}{Perché serve.}{47}{section*.132}%
+\contentsline {paragraph}{Osservazione.}{47}{section*.133}%
+\contentsline {subsection}{\numberline {14.1}$\mathbb {R}^2$ come spazio vettoriale}{47}{subsection.14.1}%
+\contentsline {paragraph}{Somma ($\oplus $).}{47}{section*.134}%
+\contentsline {paragraph}{Prodotto per uno scalare ($\odot $).}{48}{section*.135}%
+\contentsline {paragraph}{Osservazione.}{48}{section*.136}%
+\contentsline {paragraph}{Notazioni della docente.}{48}{section*.137}%
+\contentsline {paragraph}{Osservazione.}{48}{section*.138}%
+\contentsline {subsection}{\numberline {14.2}Norma (modulo)}{48}{subsection.14.2}%
+\contentsline {paragraph}{Definizione.}{48}{section*.139}%
+\contentsline {paragraph}{Osservazione (notazione).}{48}{section*.140}%
+\contentsline {paragraph}{Proprietà della norma.}{48}{section*.141}%
+\contentsline {paragraph}{Definizione (norma astratta).}{49}{section*.142}%
+\contentsline {paragraph}{Dimostrazione geometrica della disuguaglianza triangolare.}{49}{section*.143}%
+\contentsline {paragraph}{Esempio (una norma su uno spazio di funzioni).}{49}{section*.144}%
+\contentsline {subsection}{\numberline {14.3}Distanza}{49}{subsection.14.3}%
+\contentsline {paragraph}{Definizione.}{49}{section*.145}%
+\contentsline {paragraph}{Attenzione.}{50}{section*.146}%
+\contentsline {subsection}{\numberline {14.4}Prodotto scalare}{50}{subsection.14.4}%
+\contentsline {paragraph}{Definizione.}{50}{section*.147}%
+\contentsline {paragraph}{Osservazione.}{50}{section*.148}%
+\contentsline {paragraph}{Proprietà del prodotto scalare.}{50}{section*.149}%
+\contentsline {subsection}{\numberline {14.5}Intorni sferici}{51}{subsection.14.5}%
+\contentsline {paragraph}{Definizione.}{51}{section*.150}%
+\contentsline {paragraph}{Osservazione.}{51}{section*.151}%
+\contentsline {paragraph}{Esempio (un'altra norma).}{51}{section*.152}%
+\contentsline {subsection}{\numberline {14.6}Punti interni, esterni, di frontiera, isolati}{52}{subsection.14.6}%
+\contentsline {paragraph}{Definizione.}{52}{section*.153}%
+\contentsline {paragraph}{Definizione.}{52}{section*.154}%
+\contentsline {paragraph}{Definizione.}{52}{section*.155}%
+\contentsline {paragraph}{Definizione.}{52}{section*.156}%
+\contentsline {paragraph}{Definizione.}{52}{section*.157}%
+\contentsline {subsection}{\numberline {14.7}Insiemi aperti e chiusi}{53}{subsection.14.7}%
+\contentsline {paragraph}{Definizione.}{53}{section*.158}%
+\contentsline {paragraph}{Definizione.}{53}{section*.159}%
+\contentsline {paragraph}{Esempi.}{53}{section*.160}%
+\contentsline {subsection}{\numberline {14.8}Punti di accumulazione, insiemi limitati e compatti}{53}{subsection.14.8}%
+\contentsline {paragraph}{Definizione.}{53}{section*.161}%
+\contentsline {paragraph}{Definizione.}{53}{section*.162}%
+\contentsline {paragraph}{Definizione.}{53}{section*.163}%
+\contentsline {paragraph}{Osservazione.}{54}{section*.164}%
+\contentsline {subsection}{\numberline {14.9}Esercizio: disegnare regioni del piano}{54}{subsection.14.9}%
+\contentsline {paragraph}{Esercizio.}{54}{section*.165}%
+\contentsline {paragraph}{Definizione (parte interna e chiusura).}{54}{section*.166}%
+\contentsline {paragraph}{Da dove viene $E$.}{54}{section*.167}%
+\contentsline {paragraph}{Metodo.}{54}{section*.168}%
+\contentsline {paragraph}{Svolgimento.}{54}{section*.169}%
+\contentsline {paragraph}{Conclusione.}{55}{section*.170}%
+\contentsline {subsection}{\numberline {14.10}Insiemi connessi}{55}{subsection.14.10}%
+\contentsline {paragraph}{Definizione.}{55}{section*.171}%
+\contentsline {paragraph}{Osservazione.}{55}{section*.172}%
+\contentsline {paragraph}{Esempio.}{55}{section*.173}%
+\contentsline {paragraph}{Osservazione.}{55}{section*.174}%
+\contentsline {subsection}{\numberline {14.11}Insiemi convessi}{56}{subsection.14.11}%
+\contentsline {paragraph}{Definizione.}{56}{section*.175}%
+\contentsline {paragraph}{Esempi.}{56}{section*.176}%
+\contentsline {paragraph}{Osservazione.}{56}{section*.177}%
+\contentsline {subsection}{\numberline {14.12}Insiemi stellati}{56}{subsection.14.12}%
+\contentsline {paragraph}{Definizione.}{56}{section*.178}%
+\contentsline {paragraph}{Esempio.}{56}{section*.179}%
+\contentsline {paragraph}{Osservazione.}{57}{section*.180}%
+\contentsline {subsection}{\numberline {14.13}Connessione per poligonali}{57}{subsection.14.13}%
+\contentsline {paragraph}{Definizione.}{57}{section*.181}%
+\contentsline {paragraph}{Osservazione.}{57}{section*.182}%
+\contentsline {paragraph}{Esempio.}{57}{section*.183}%
+\contentsline {paragraph}{Perché servono queste nozioni.}{57}{section*.184}%
+\contentsline {part}{V\hspace {1em}Introduzione al concetto di curva}{58}{part.5}%
+\contentsline {section}{\numberline {15}Che cos'è una curva?}{58}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Traiettoria e legge oraria}{58}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Dalle funzioni di Analisi~I alle curve}{59}{subsection.15.2}%
+\contentsline {paragraph}{In sintesi.}{59}{section*.185}%
+\contentsline {paragraph}{Osservazione.}{59}{section*.186}%
+\contentsline {section}{\numberline {16}Curve in $\mathbb {R}^n$}{59}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Definizione di curva ed equazioni parametriche}{59}{subsection.16.1}%
+\contentsline {paragraph}{Definizione (curva).}{59}{section*.187}%
+\contentsline {paragraph}{Osservazione (perché continua).}{59}{section*.188}%
+\contentsline {paragraph}{Equazioni parametriche.}{59}{section*.189}%
+\contentsline {subsection}{\numberline {16.2}Sostegno, punto iniziale e finale, curve chiuse}{60}{subsection.16.2}%
+\contentsline {paragraph}{Definizione (sostegno).}{60}{section*.190}%
+\contentsline {paragraph}{Definizione (punto iniziale e finale, curva chiusa).}{60}{section*.191}%
+\contentsline {subsection}{\numberline {16.3}Curve diverse con lo stesso sostegno}{60}{subsection.16.3}%
+\contentsline {paragraph}{Esempio.}{60}{section*.192}%
+\contentsline {paragraph}{Osservazione.}{60}{section*.193}%
+\contentsline {paragraph}{Osservazione.}{60}{section*.194}%
+\contentsline {section}{\numberline {17}Curve semplici e curve regolari}{61}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Curve semplici}{61}{subsection.17.1}%
+\contentsline {paragraph}{Definizione (curva semplice).}{61}{section*.195}%
+\contentsline {paragraph}{Esempio.}{61}{section*.196}%
+\contentsline {paragraph}{Osservazione (perché $\varphi _1$ è semplice).}{61}{section*.197}%
+\contentsline {paragraph}{Esempio.}{61}{section*.198}%
+\contentsline {paragraph}{Osservazione.}{61}{section*.199}%
+\contentsline {subsection}{\numberline {17.2}Curve regolari, vettore e versore tangente}{61}{subsection.17.2}%
+\contentsline {paragraph}{Definizione (curva regolare).}{61}{section*.200}%
+\contentsline {paragraph}{Definizione (vettore e versore tangente).}{61}{section*.201}%
+\contentsline {subsection}{\numberline {17.3}Perché studiamo le curve}{62}{subsection.17.3}%
+\contentsline {paragraph}{Cenno storico.}{62}{section*.202}%
+\contentsline {section}{\numberline {18}Esempi di curve}{62}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Esempio 1: curva cartesiana}{62}{subsection.18.1}%
+\contentsline {paragraph}{Proprietà.}{62}{section*.203}%
+\contentsline {subsection}{\numberline {18.2}Esempio 2: circonferenza}{63}{subsection.18.2}%
+\contentsline {paragraph}{Proprietà.}{63}{section*.204}%
+\contentsline {subsection}{\numberline {18.3}Esempio 3: ellisse}{64}{subsection.18.3}%
+\contentsline {paragraph}{Proprietà.}{64}{section*.205}%
+\contentsline {subsection}{\numberline {18.4}Esempio 4: una curva regolare ma non semplice}{65}{subsection.18.4}%
+\contentsline {paragraph}{1) È chiusa?}{65}{section*.206}%
+\contentsline {paragraph}{2) Non è semplice.}{65}{section*.207}%
+\contentsline {paragraph}{3) È regolare?}{65}{section*.208}%
+\contentsline {paragraph}{Verso di percorrenza.}{66}{section*.209}%
+\contentsline {subsection}{\numberline {18.5}Esempio 5: cuspide}{66}{subsection.18.5}%
+\contentsline {subsection}{\numberline {18.6}Esempio 6: cicloide}{66}{subsection.18.6}%
+\contentsline {paragraph}{Curve regolari a tratti.}{67}{section*.210}%
+\contentsline {subsection}{\numberline {18.7}Esempio 7: elica}{68}{subsection.18.7}%
+\contentsline {paragraph}{Osservazione.}{68}{section*.211}%

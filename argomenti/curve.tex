@@ -1,6 +1,6 @@
 % Analisi Matematica II, lezione 7: curve in R^n (definizione, sostegno, curve chiuse,
 % semplici e regolari, esempi). Frammento da includere con \input; le figure
-% figure/fig_NN.pdf sono generate da figure.py.
+% sono figure/fig_26.pdf-fig_36.pdf; fig_28, fig_33, fig_34 sono generate da figure_lezione7.py.
 
 % [0:00:00]
 \section{Che cos'è una curva?}
@@ -27,12 +27,12 @@ risposta giusta, data da uno studente, è che una curva è una \emph{funzione}.
 % [0:04:00]
 Pensiamo a un punto che si muove di moto circolare, magari uniforme: la sua traiettoria,
 diremmo, è una circonferenza. Se però un punto percorre la circonferenza una volta e un
-altro la percorre cinque volte, il disegno è lo stesso (figura~\ref{fig:01}): hanno la
+altro la percorre cinque volte, il disegno è lo stesso (figura~\ref{fig:26}): hanno la
 stessa traiettoria? Guardando solo la circonferenza non si vede quante volte è stata
 percorsa: il luogo dei punti non tiene conto delle ripetizioni, e dalla sola figura non
 si può risalire al moto.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_01}\caption{La stessa circonferenza è l'immagine della legge oraria $\varphi(t)=(\cos t,\sin t)$ sia per $t\in[0,2\pi]$ (un giro) sia per $t\in[0,10\pi]$ (cinque giri): dal solo disegno non si distinguono i due moti.}\label{fig:01}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_26}\caption{La stessa circonferenza è l'immagine della legge oraria $\varphi(t)=(\cos t,\sin t)$ sia per $t\in[0,2\pi]$ (un giro) sia per $t\in[0,10\pi]$ (cinque giri): dal solo disegno non si distinguono i due moti.}\label{fig:26}\end{figure}
 
 La circonferenza, da sola, non è dunque una traiettoria: dalle sole posizioni non si
 distinguono moti diversi (dove si trovava il punto in un dato istante? quante volte l'ho percorsa? non posso
@@ -91,7 +91,7 @@ l'insieme dei punti, cioè l'immagine dell'applicazione.
 \emph{curva} è la legge oraria. Si possono avere due leggi orarie diverse con la stessa
 immagine.
 % [0:09:59]
-La circonferenza della figura~\ref{fig:01} non è una curva: è l'immagine di una curva,
+La circonferenza della figura~\ref{fig:26} non è una curva: è l'immagine di una curva,
 e ci sono infinite curve (leggi orarie) che l'hanno come immagine.
 Non si può scindere il disegno dalla legge.
 
@@ -200,13 +200,13 @@ Per riconoscere il sostegno basta elevare al quadrato le componenti e sommarle:
 $\cos^2t+\sin^2t=1$, quindi i punti stanno sulla circonferenza di centro l'origine e
 raggio~$1$.
 Questa circonferenza è il sostegno sia di $\varphi_1$ sia di $\varphi_2$
-(figura~\ref{fig:02}), ma le due curve hanno domini diversi. Dal punto di vista del
+(figura~\ref{fig:27}), ma le due curve hanno domini diversi. Dal punto di vista del
 sostegno sono identiche, eppure sono due curve diverse:
 % [0:23:36]
 $\varphi_1$ fa un giro completo, partendo da $(1,0)$ e tornandoci, mentre $\varphi_2$ fa
 mezzo giro in più.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_02}\caption{Le curve $\varphi_1$ (su $[0,2\pi]$) e $\varphi_2$ (su $[0,3\pi]$) hanno lo stesso sostegno, la circonferenza unitaria. $\varphi_1$ parte e arriva in $(1,0)$; $\varphi_2$ parte da $(1,0)$, fa mezzo giro in più e termina in $(-1,0)$: il tratteggio, disegnato un po' all'esterno per renderlo visibile, è il suo secondo passaggio sulla semicirconferenza superiore.}\label{fig:02}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_27}\caption{Le curve $\varphi_1$ (su $[0,2\pi]$) e $\varphi_2$ (su $[0,3\pi]$) hanno lo stesso sostegno, la circonferenza unitaria. $\varphi_1$ parte e arriva in $(1,0)$; $\varphi_2$ parte da $(1,0)$, fa mezzo giro in più e termina in $(-1,0)$: il tratteggio, disegnato un po' all'esterno per renderlo visibile, è il suo secondo passaggio sulla semicirconferenza superiore.}\label{fig:27}\end{figure}
 
 \paragraph{Osservazione.} Due curve che hanno lo stesso sostegno non sono necessariamente
 la stessa curva. Infatti $\varphi_1$ è chiusa, perché $\varphi_1(0)=\varphi_1(2\pi)=(1,0)$,
@@ -328,13 +328,13 @@ curva regolare $|\varphi'(t)|\neq0$ e la frazione ha senso. Il versore $T(t)$ ha
 $|T(t)|=1$ e indica direzione e verso istantanei del moto.
 
 % [0:38:30]
-La figura~\ref{fig:03} illustra la situazione: $\varphi$ porta l'intervallo $[a,b]$ in una
+La figura~\ref{fig:28} illustra la situazione: $\varphi$ porta l'intervallo $[a,b]$ in una
 curva del piano, dal punto iniziale $\varphi(a)$ al punto finale $\varphi(b)$, e in ogni
 istante si può tracciare il versore tangente (il disegno è più chiaro con una curva che
 non si chiude). Pensando al moto, $\varphi'(t)$ è la velocità: ecco perché la velocità ha
 la direzione della tangente alla traiettoria.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_03}\caption{Una curva regolare $\varphi\colon[a,b]\to\mathbb{R}^2$: l'intervallo $[a,b]$ viene portato in una curva del piano che va da $\varphi(a)$ a $\varphi(b)$; in rosso il versore tangente $T(t)$ in alcuni istanti (andamento qualitativo).}\label{fig:03}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_28}\caption{Una curva regolare $\varphi\colon[a,b]\to\mathbb{R}^2$: l'intervallo $[a,b]$ viene portato in una curva del piano che va da $\varphi(a)$ a $\varphi(b)$; in rosso il versore tangente $T(t)$ in alcuni istanti (andamento qualitativo).}\label{fig:28}\end{figure}
 
 % [0:39:46]
 \subsection{Perché studiamo le curve}
@@ -387,13 +387,13 @@ Si chiama \emph{curva cartesiana} la curva
 \]
 (equazioni parametriche di una curva in $\mathbb{R}^2$). Poiché $f\in C^1$, si possono
 fare alcune osservazioni. Innanzitutto il sostegno è il grafico di $f$
-(figura~\ref{fig:04}):
+(figura~\ref{fig:29}):
 % [0:49:09]
 il sostegno è l'insieme delle coppie $(t,f(t))$, cioè proprio il grafico. Fra tutte le
 curve, i grafici sono la classe che ci interessa: sono quelli che vogliamo imparare a
 misurare.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_04}\caption{Curva cartesiana $\varphi(t)=(t,f(t))$, $t\in[a,b]$: il sostegno è il grafico di $f$ (andamento qualitativo).}\label{fig:04}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_29}\caption{Curva cartesiana $\varphi(t)=(t,f(t))$, $t\in[a,b]$: il sostegno è il grafico di $f$ (andamento qualitativo).}\label{fig:29}\end{figure}
 
 \paragraph{Proprietà.}
 \begin{enumerate}
@@ -423,7 +423,7 @@ Sia $\varphi\colon[0,2\pi]\to\mathbb{R}^2$ definita da
 \qquad t\in[0,2\pi],
 \]
 dove $(x_0,y_0)\in\mathbb{R}^2$ e $R>0$. Il sostegno è la circonferenza di centro
-$(x_0,y_0)$ e raggio $R$ (figura~\ref{fig:05}):
+$(x_0,y_0)$ e raggio $R$ (figura~\ref{fig:30}):
 \[
 (x-x_0)^2+(y-y_0)^2=R^2.
 \]
@@ -431,7 +431,7 @@ $(x_0,y_0)$ e raggio $R$ (figura~\ref{fig:05}):
 Infatti, sostituendo a $x$ e a $y$ le componenti, si ottiene
 $R^2\cos^2t+R^2\sin^2t=R^2$.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_05}\caption{Sostegno della circonferenza $\varphi(t)=(x_0+R\cos t,\ y_0+R\sin t)$, $t\in[0,2\pi]$: centro $(x_0,y_0)$ e raggio $R$; le frecce indicano il verso di percorrenza.}\label{fig:05}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_30}\caption{Sostegno della circonferenza $\varphi(t)=(x_0+R\cos t,\ y_0+R\sin t)$, $t\in[0,2\pi]$: centro $(x_0,y_0)$ e raggio $R$; le frecce indicano il verso di percorrenza.}\label{fig:30}\end{figure}
 
 \paragraph{Proprietà.}
 \begin{enumerate}
@@ -482,14 +482,14 @@ $a^2$ resta $\cos^2t$; facendo lo stesso con la seconda (togliere $y_0$, divider
 $b^2$) resta $\sin^2t$, e la somma vale~$1$. È l'analogo dell'equazione vista a scuola,
 ottenuto senza passare per i fuochi.
 
-Ci sono due tipi di sostegno, $a>b$ e $b>a$ (figura~\ref{fig:06}):
+Ci sono due tipi di sostegno, $a>b$ e $b>a$ (figura~\ref{fig:31}):
 % [0:59:20]
 nel primo caso si ha una specie di uovo disteso, di centro $(x_0,y_0)$, con il semiasse
 orizzontale $a$ più lungo di quello verticale $b$; nel secondo l'ellisse è disposta in
 verticale. Nel caso particolare $a=b=R$ si ritrova la circonferenza di raggio $R$
 dell'esempio~2.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_06}\caption{Sostegno dell'ellisse $\varphi(t)=(x_0+a\cos t,\ y_0+b\sin t)$ nei due casi $a>b$ (a sinistra, con $a=2$, $b=1$) e $b>a$ (a destra, con $a=1$, $b=1{,}9$).}\label{fig:06}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_31}\caption{Sostegno dell'ellisse $\varphi(t)=(x_0+a\cos t,\ y_0+b\sin t)$ nei due casi $a>b$ (a sinistra, con $a=2$, $b=1$) e $b>a$ (a destra, con $a=1$, $b=1{,}9$).}\label{fig:31}\end{figure}
 
 \paragraph{Proprietà.}
 \begin{enumerate}
@@ -564,10 +564,10 @@ la semplicità è una proprietà globale (il sostegno non si autointerseca).
 
 Quando una curva non è semplice, si attorciglia su se stessa:
 % [1:10:12]
-disegnandola (figura~\ref{fig:07}) si vede che per l'origine si passa due volte, in due
+disegnandola (figura~\ref{fig:32}) si vede che per l'origine si passa due volte, in due
 istanti diversi.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_07}\caption{La curva $\varphi(t)=(-t^3-2t^2-t,\ t^3+t^2)$ vicino all'origine, con $a=1{,}25$: il punto parte da $\varphi(-a)$ nel quarto quadrante, passa per l'origine in $t=-1$ con velocità $(0,1)$, percorre il cappio nel primo quadrante e ripassa per l'origine in $t=0$ con velocità $(-1,0)$; il ramo per $t>0$ prosegue fuori dal riquadro fino a $\varphi(a)$.}\label{fig:07}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_32}\caption{La curva $\varphi(t)=(-t^3-2t^2-t,\ t^3+t^2)$ vicino all'origine, con $a=1{,}25$: il punto parte da $\varphi(-a)$ nel quarto quadrante, passa per l'origine in $t=-1$ con velocità $(0,1)$, percorre il cappio nel primo quadrante e ripassa per l'origine in $t=0$ con velocità $(-1,0)$; il ramo per $t>0$ prosegue fuori dal riquadro fino a $\varphi(a)$.}\label{fig:32}\end{figure}
 
 \paragraph{Verso di percorrenza.} Da dove la percorriamo?
 % [1:11:24]
@@ -580,7 +580,7 @@ l'origine, $t=-1$ e $t=0$ (non è nulla, perché la curva è regolare):
 Poiché $-1$ precede $0$: all'istante $t=-1$ il punto attraversa l'origine con velocità
 verticale, diretta verso l'alto come l'asse $y$; percorre poi il cappio nel primo
 quadrante e all'istante $t=0$ ripassa per l'origine con velocità diretta verso sinistra,
-nel verso opposto all'asse $x$ (frecce nella figura~\ref{fig:07}). Dalla forma
+nel verso opposto all'asse $x$ (frecce nella figura~\ref{fig:32}). Dalla forma
 fattorizzata delle componenti si ricava in quali quadranti si trova il punto:
 \begin{itemize}
 \item per $t<-1$: $x(t)>0$ e $y(t)<0$, quarto quadrante;
@@ -593,7 +593,7 @@ l'alto a sinistra.
 \subsection{Esempio 5: cuspide}
 
 Sia $\varphi(t)=(t^3,t^2)$, con $t\in[-1,1]$: è un esempio di curva non regolare
-(figura~\ref{fig:08}).
+(figura~\ref{fig:33}).
 % [1:15:39]
 La forma del sostegno, la cuspide, ricorda i punti di non derivabilità di Analisi~I: ci
 si aspetta che lì manchi il vettore tangente.
@@ -620,7 +620,7 @@ $+\infty$, sinistra $-\infty$), cioè una cuspide.
 % [1:17:05]
 È la forma con cui da bambini si disegnano le rondini.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_08}\caption{Cuspide $\varphi(t)=(t^3,t^2)$, $t\in[-1,1]$, percorsa da $\varphi(-1)$ a $\varphi(1)$: nell'origine $\varphi'(0)=(0,0)$ e la curva non è regolare.}\label{fig:08}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_33}\caption{Cuspide $\varphi(t)=(t^3,t^2)$, $t\in[-1,1]$, percorsa da $\varphi(-1)$ a $\varphi(1)$: nell'origine $\varphi'(0)=(0,0)$ e la curva non è regolare.}\label{fig:33}\end{figure}
 
 % [1:18:01]
 \subsection{Esempio 6: cicloide}
@@ -637,10 +637,10 @@ il moto ricomincia: fermandosi a $t\in[0,2\pi]$ si vede un solo arco;
 % [1:19:16]
 proseguendo se ne ottengono altri, che toccano la retta nei punti di ascissa $2\pi r$,
 $4\pi r$, \dots, cioè dopo tratti pari alla lunghezza della circonferenza della ruota
-(figura~\ref{fig:09}). Le equazioni si ricavano dall'analisi cinematica del problema;
+(figura~\ref{fig:34}). Le equazioni si ricavano dall'analisi cinematica del problema;
 qui interessano le proprietà matematiche della curva.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_09}\caption{Cicloide con $r=1$: l'arco per $t\in[0,2\pi]$ (tratto continuo), descritto dal punto $\varphi(t)$ della ruota che rotola sulla retta, e la prosecuzione per $t\in[2\pi,4\pi]$ (tratteggio); in $(2\pi r,0)$ si forma una cuspide.}\label{fig:09}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_34}\caption{Cicloide con $r=1$: l'arco per $t\in[0,2\pi]$ (tratto continuo), descritto dal punto $\varphi(t)$ della ruota che rotola sulla retta, e la prosecuzione per $t\in[2\pi,4\pi]$ (tratteggio); in $(2\pi r,0)$ si forma una cuspide.}\label{fig:34}\end{figure}
 
 \begin{enumerate}
 \item Non è chiusa:
@@ -664,7 +664,7 @@ La regolarità si studia nell'aperto, quindi la curva è regolare. Ma se fosse
 $t\in[0,4\pi]$ la curva non sarebbe regolare:
 % [1:21:52]
 l'istante $t=2\pi$ sarebbe interno, con $\varphi'(2\pi)=(0,0)$, e infatti lì si forma una
-cuspide (figura~\ref{fig:09});
+cuspide (figura~\ref{fig:34});
 % [1:22:45]
 lo stesso accade già con $t\in[0,3\pi]$. In generale la velocità si annulla ogni volta che
 il punto tocca la retta, cioè negli istanti $t=2\pi,4\pi,\dots$, e lì il sostegno presenta
@@ -675,11 +675,11 @@ una cuspide.
 Non tutte le curve sono regolari su tutto l'intervallo: la cicloide su $[0,4\pi]$ non lo
 è, ma è regolare su $[0,2\pi]$ e su $[2\pi,4\pi]$. Una curva regolare su un numero finito
 di pezzi, cioè a meno di un numero finito di punti, si dice \emph{regolare a tratti}. È
-una nozione utile: il bordo di un rettangoloide (figura~\ref{fig:10}) negli spigoli perde
+una nozione utile: il bordo di un rettangoloide (figura~\ref{fig:35}) negli spigoli perde
 la derivata, ma è regolare a tratti; conviene allora trattarlo un tratto per volta, e la
 lunghezza dei segmenti si calcola come a scuola.
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_10}\caption{Il bordo di un rettangoloide, percorso in verso antiorario, è una curva chiusa regolare a tratti: è formato da tre segmenti e dal grafico di $f$, e negli spigoli non è regolare (andamento qualitativo).}\label{fig:10}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_35}\caption{Il bordo di un rettangoloide, percorso in verso antiorario, è una curva chiusa regolare a tratti: è formato da tre segmenti e dal grafico di $f$, e negli spigoli non è regolare (andamento qualitativo).}\label{fig:35}\end{figure}
 
 % [1:22:45]
 \subsection{Esempio 7: elica}
@@ -693,7 +693,7 @@ L'elica in $\mathbb{R}^3$ è la curva
 Per trovarne le equazioni si pensa a una molla: guardandola dall'alto si vede una
 circonferenza, quindi le prime due componenti, nel piano $xy$, devono descrivere una
 circonferenza; intanto la quota cresce ($z=t$), il punto sale e la curva non si chiude
-(figura~\ref{fig:11}). È un esempio interessante perché usa ciò che si sa nel piano per
+(figura~\ref{fig:36}). È un esempio interessante perché usa ciò che si sa nel piano per
 costruire una parametrizzazione in $\mathbb{R}^3$;
 % [1:26:03]
 con $t\in[0,2\pi]$ l'elica fa un solo giro.
@@ -713,7 +713,7 @@ Il versore tangente è
 T(t)=\frac{\varphi'(t)}{|\varphi'(t)|}=\frac{1}{\sqrt{R^2+1}}\,(-R\sin t,\ R\cos t,\ 1).
 \]
 
-\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_11}\caption{Elica $\varphi(t)=(R\cos t,\ R\sin t,\ t)$, $t\in[0,2\pi]$, con $R=1$: vista dall'alto, cioè proiettata sul piano $xy$ (tratteggio), è una circonferenza; in verde un vettore tangente $\varphi'(t)$.}\label{fig:11}\end{figure}
+\begin{figure}[htbp]\centering\includegraphics[width=0.6\linewidth]{figure/fig_36}\caption{Elica $\varphi(t)=(R\cos t,\ R\sin t,\ t)$, $t\in[0,2\pi]$, con $R=1$: vista dall'alto, cioè proiettata sul piano $xy$ (tratteggio), è una circonferenza; in verde un vettore tangente $\varphi'(t)$.}\label{fig:36}\end{figure}
 
 % [1:26:03]
 \paragraph{Osservazione.} Negli esercizi le equazioni parametriche non saranno date:
@@ -767,7 +767,7 @@ curva), bisognerà saperla parametrizzare da soli, come si è fatto qui per l'el
 %   chiusura del ragionamento incomprensibile, marcata [?].
 % - audio [0:15:49]: l'esempio del moto discontinuo («piano H», «ABG») è trascritto in modo
 %   confuso; parafrasato.
-% - figure: fig_01-fig_09 e fig_11 ricostruiscono i disegni degli appunti (pp. 1-8), con
-%   parametri scelti (a=1,25 in fig_07, r=1, R=1); fig_10 (rettangoloide) è uno schema
+% - figure: fig_26-fig_34 e fig_36 ricostruiscono i disegni degli appunti (pp. 1-8), con
+%   parametri scelti (a=1,25 in fig_32, r=1, R=1); fig_35 (rettangoloide) è uno schema
 %   dall'audio [1:27:12], non presente negli appunti. Nessun ritaglio originale usato.
 % - audio [0:44:45]-[0:47:47] (pausa, frasi allucinate) e ripetizioni in [0:58:03] ignorati.
