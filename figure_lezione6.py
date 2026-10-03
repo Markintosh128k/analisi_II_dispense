@@ -1,8 +1,8 @@
 """Figure della dispensa: Analisi II - Lezione 6 (topologia in R^2).
 
 Ogni funzione fig_NN() ricostruisce una figura degli appunti (o descritta
-dalla docente alla lavagna) e la salva in figure/fig_NN.pdf.
-Uso:  python figure.py
+dalla docente alla lavagna) e la salva in figure/fig_NN.pdf (NN = 14..25).
+Uso:  python figure_lezione6.py
 """
 import os
 
@@ -65,7 +65,7 @@ def blob(cx=0.0, cy=0.0, r=1.0, n=400):
 
 
 # ---------------------------------------------------------------------------
-def fig_01():
+def fig_14():
     """Da una a due variabili: grafico in R^2 contro grafico in R^3."""
     fig = plt.figure(figsize=(9, 3.6))
     ax1 = fig.add_subplot(1, 2, 1)
@@ -90,10 +90,10 @@ def fig_01():
     ax2.set_yticks([])
     ax2.set_zticks([])
     ax2.set_title(r"$z=f(x,y)$: grafico in $\mathbb{R}^3$")
-    salva(fig, "fig_01")
+    salva(fig, "fig_14")
 
 
-def fig_02():
+def fig_15():
     """Norma di v=(x,y): teorema di Pitagora."""
     fig, ax = plt.subplots(figsize=(4.2, 3.2))
     x, y = 3.0, 2.0
@@ -108,10 +108,10 @@ def fig_02():
     ax.text(x / 2, -0.12, "$x$", ha="center", va="top")
     ax.text(x + 0.1, y / 2, "$y$", va="center")
     assi(ax, (-0.3, 4.2), (-0.4, 2.8), xl="", yl="")
-    salva(fig, "fig_02")
+    salva(fig, "fig_15")
 
 
-def fig_03():
+def fig_16():
     """Disuguaglianza triangolare: regola del parallelogramma."""
     fig, ax = plt.subplots(figsize=(4.6, 3.4))
     v1, v2 = np.array([3.0, 0.8]), np.array([1.0, 2.0])
@@ -128,10 +128,10 @@ def fig_03():
     ax.text(*((v1 + s) / 2 + [0.1, -0.1]), r"$\|v_2\|$")
     ax.text(2.3, 1.0, "$T$", fontsize=13)
     assi(ax, (-0.3, 4.6), (-0.4, 3.3), xl="", yl="")
-    salva(fig, "fig_03")
+    salva(fig, "fig_16")
 
 
-def fig_04():
+def fig_17():
     """Angolo theta in [0, pi] tra due vettori di R^2."""
     fig, ax = plt.subplots(figsize=(4.0, 3.0))
     v1, v2 = np.array([3.0, 0.7]), np.array([0.9, 2.3])
@@ -144,10 +144,10 @@ def fig_04():
     ax.text(*(v2 + [0.05, 0.05]), "$v_2$")
     ax.text(1.6, 2.4, r"$\theta\in[0,\pi]$")
     assi(ax, (-0.3, 3.6), (-0.3, 2.7), xl="", yl="")
-    salva(fig, "fig_04")
+    salva(fig, "fig_17")
 
 
-def fig_05():
+def fig_18():
     """Intorno sferico: norma euclidea (disco) e norma del massimo (quadrato)."""
     fig, (a, b) = plt.subplots(1, 2, figsize=(8, 3.6))
     x0, y0, d = 1.6, 1.2, 0.9
@@ -169,10 +169,10 @@ def fig_05():
     b.text(0.06, -1.05, "$-1$", va="top")
     assi(b, (-1.7, 1.7), (-1.6, 1.6))
     b.set_title(r"$\max\{|x|,|y|\}<1$", fontsize=11)
-    salva(fig, "fig_05")
+    salva(fig, "fig_18")
 
 
-def fig_06():
+def fig_19():
     """Punti interni, esterni, di frontiera, isolati."""
     fig, ax = plt.subplots(figsize=(6.2, 3.8))
     bx, by = blob(2.2, 1.6, 1.0)
@@ -204,10 +204,10 @@ def fig_06():
     ax.text(s[0] + 0.3, s[1], r"isolato ($\in A$)", va="center")
     ax.text(0.5, 3.3, r"in arancione: $\partial A$", color=C_FRONT)
     assi(ax, (-0.3, 6.3), (-0.3, 3.6))
-    salva(fig, "fig_06")
+    salva(fig, "fig_19")
 
 
-def fig_07():
+def fig_20():
     """Frontiera: in R sono gli estremi, in R^2 e' una curva."""
     fig, (a, b) = plt.subplots(1, 2, figsize=(8, 2.8),
                                gridspec_kw=dict(width_ratios=[1.2, 1]))
@@ -232,10 +232,10 @@ def fig_07():
     b.set_xlim(-1.7, 3.2)
     b.axis("off")
     b.set_title(r"in $\mathbb{R}^2$")
-    salva(fig, "fig_07")
+    salva(fig, "fig_20")
 
 
-def fig_08():
+def fig_21():
     """Aperti e chiusi: bordo continuo = appartiene, tratteggiato = no."""
     fig, axs = plt.subplots(1, 4, figsize=(11, 3.0))
     # (a) ne' aperto ne' chiuso: parte del bordo inclusa, parte no
@@ -270,14 +270,14 @@ def fig_08():
     ax.text(1.3, 1.2, "$A$", ha="center", va="center")
     assi(ax, (-0.3, 2.8), (-0.3, 2.7))
     ax.set_title("aperto", fontsize=10)
-    salva(fig, "fig_08")
+    salva(fig, "fig_21")
 
 
 def _griglia(lim=2.2, n=700):
     return np.meshgrid(np.linspace(-lim, lim, n), np.linspace(-lim, lim, n))
 
 
-def fig_09():
+def fig_22():
     """Esercizio: E = {|y|<x, x^2+y^2<=3, y<x^2}, costruito passo per passo."""
     X, Y = _griglia()
     c1 = np.abs(Y) < X
@@ -326,7 +326,7 @@ def fig_09():
     a.plot(xx, xx, ":", color="gray", lw=0.7)
     a.plot(xx, -xx, ":", color="gray", lw=0.7)
     a.add_patch(Circle((0, 0), r3, fill=False, ls=":", color="gray", lw=0.7))
-    salva(fig, "fig_09")
+    salva(fig, "fig_22")
 
 
 def _clessidra(ax, chiusa=True, alpha=0.8):
@@ -342,7 +342,7 @@ def _clessidra(ax, chiusa=True, alpha=0.8):
         ax.add_patch(tri)
 
 
-def fig_10():
+def fig_23():
     """Clessidra senza frontiera (aperta): non e' connessa."""
     fig, ax = plt.subplots(figsize=(3.6, 3.6))
     _clessidra(ax, chiusa=False)
@@ -353,10 +353,10 @@ def fig_10():
     ax.text(0.15, 0.55, "$A_1$")
     ax.text(0.3, -0.35, "$A_2$")
     assi(ax, (-1.4, 1.4), (-1.3, 1.3))
-    salva(fig, "fig_10")
+    salva(fig, "fig_23")
 
 
-def fig_11():
+def fig_24():
     """Convessi e non convessi."""
     fig, axs = plt.subplots(1, 4, figsize=(11, 2.9))
     for ax in axs:
@@ -385,10 +385,10 @@ def fig_11():
     axs[3].add_patch(Circle((0, 0), 0.45, facecolor="white", edgecolor=C_EDGE, lw=1.6))
     axs[3].plot([-0.75, 0.75], [0.05, -0.05], "o-", color=C_FRONT, ms=4)
     axs[3].set_title("non convesso (ma connesso)", fontsize=10)
-    salva(fig, "fig_11")
+    salva(fig, "fig_24")
 
 
-def fig_12():
+def fig_25():
     """Clessidra chiusa: stellata rispetto all'origine, non convessa;
     connessa per poligonali ma non connessa."""
     fig, (a, b) = plt.subplots(1, 2, figsize=(7.4, 3.6))
@@ -410,12 +410,12 @@ def fig_12():
     b.text(Q[0] - 0.05, Q[1] - 0.08, "$Q$", ha="right", va="top")
     b.set_title("connesso per poligonali (spezzata per $O$)", fontsize=10)
     assi(b, (-1.4, 1.4), (-1.3, 1.3))
-    salva(fig, "fig_12")
+    salva(fig, "fig_25")
 
 
 def main():
-    for f in (fig_01, fig_02, fig_03, fig_04, fig_05, fig_06,
-              fig_07, fig_08, fig_09, fig_10, fig_11, fig_12):
+    for f in (fig_14, fig_15, fig_16, fig_17, fig_18, fig_19,
+              fig_20, fig_21, fig_22, fig_23, fig_24, fig_25):
         f()
         print("ok", f.__name__)
 

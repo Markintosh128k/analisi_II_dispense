@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Figure della dispensa di Analisi II, lezione 5 (numerazione da 14).
+"""Figure della dispensa di Analisi II, lezione 5 (figura fig_13).
 
-Uso: python3 figure.py  ->  salva figure/fig_NN.pdf
+Uso: python3 figure_lezione5.py  ->  salva figure/fig_NN.pdf
 """
 import os
 
@@ -38,7 +38,7 @@ def parentesi(ax, x, verso, altezza, **kw):
     ax.plot([x + d, x, x, x + d], [altezza, altezza, -altezza, -altezza], **kw)
 
 
-def fig_14():
+def fig_13():
     """Compatti [-r, r] sempre più grandi dentro ]-rho, rho[ (appunti p. 3, audio 0:22:56)."""
     rho = 1.0
     fig, ax = plt.subplots(figsize=(7.5, 2.6))
@@ -83,11 +83,11 @@ def fig_14():
     for lato in ("left", "right", "top", "bottom"):
         ax.spines[lato].set_visible(False)
     ax.set_xlabel(r"asse reale $x$ (adimensionale)")
-    salva(fig, "fig_14")
+    salva(fig, "fig_13")
 
 
 def main():
-    fig_14()
+    fig_13()
 
 
 if __name__ == "__main__":

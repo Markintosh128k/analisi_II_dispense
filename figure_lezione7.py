@@ -1,4 +1,7 @@
-"""Ridisegna fig_03, fig_08, fig_09 con la curva indicata da phi (stesso stile degli originali)."""
+"""Ridisegna fig_28, fig_33, fig_34 (lezione 7) con la curva indicata da phi (stesso stile degli originali).
+
+Uso: python3 figure_lezione7.py  ->  salva figure/fig_NN.pdf
+"""
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -30,8 +33,8 @@ def assi(ax, x0, x1, y0, y1, xlab=True, ylab=True, fs=15):
         ax.text(0.02 * (x1 - x0), y1, "$y$", ha="left", va="top", fontsize=fs)
 
 
-# ------------------------------------------------------------------ fig_03
-def fig03():
+# ------------------------------------------------------------------ fig_28
+def fig28():
     fig = plt.figure(figsize=(5.16, 2.22))
     # intervallo [a,b]
     ax1 = fig.add_axes([0.0, 0.0, 0.30, 1.0])
@@ -71,12 +74,12 @@ def fig03():
     ax2.text(X[70] + 0.1, Y[70] - 0.2, r"$\varphi(t)$", ha="left", va="top", fontsize=15)
     ax2.text(X[115] - 0.1, Y[115] + 0.35, r"$T(t)$", ha="center", va="bottom", fontsize=15,
              color=ROSSO)
-    fig.savefig("figure/fig_03.pdf", bbox_inches="tight", pad_inches=0.02)
+    fig.savefig("figure/fig_28.pdf", bbox_inches="tight", pad_inches=0.02)
     plt.close(fig)
 
 
-# ------------------------------------------------------------------ fig_08
-def fig08():
+# ------------------------------------------------------------------ fig_33
+def fig33():
     fig, ax = plt.subplots(figsize=(4.4, 2.65))
     t = np.linspace(-1, 1, 801)
     x, y = t ** 3, t ** 2
@@ -95,12 +98,12 @@ def fig08():
                 ha="right", va="center", color=ROSSO, fontsize=13,
                 arrowprops=dict(arrowstyle="-", color=ROSSO, lw=0.9, shrinkA=0, shrinkB=0,
                                 relpos=(0.45, 1.0)))
-    fig.savefig("figure/fig_08.pdf", bbox_inches="tight", pad_inches=0.02)
+    fig.savefig("figure/fig_33.pdf", bbox_inches="tight", pad_inches=0.02)
     plt.close(fig)
 
 
-# ------------------------------------------------------------------ fig_09
-def fig09():
+# ------------------------------------------------------------------ fig_34
+def fig34():
     r = 1.0
     fig, ax = plt.subplots(figsize=(5.3, 1.6))
     ax.set_xlim(-0.4, 4 * np.pi + 1.1); ax.set_ylim(-0.7, 2.75); ax.axis("off")
@@ -131,9 +134,9 @@ def fig09():
                                 relpos=(0.0, 1.0)))
     ax.text(np.pi, 2.2, r"$t\in[0,\,2\pi]$", color=BLU, ha="center", va="bottom", fontsize=12)
     ax.text(3 * np.pi, 2.2, r"$t\in[2\pi,\,4\pi]$", color=BLU, ha="center", va="bottom", fontsize=12)
-    fig.savefig("figure/fig_09.pdf", bbox_inches="tight", pad_inches=0.02)
+    fig.savefig("figure/fig_34.pdf", bbox_inches="tight", pad_inches=0.02)
     plt.close(fig)
 
 
 if __name__ == "__main__":
-    fig03(); fig08(); fig09()
+    fig28(); fig33(); fig34()

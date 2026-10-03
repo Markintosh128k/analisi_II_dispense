@@ -1,0 +1,95 @@
+% =====================================================================
+%  Analisi Matematica II — Lezione 3
+%  Fine delle successioni di funzioni (le serie di funzioni sono in serie-di-funzioni.tex).
+%  Frammento da includere con \input; richiede amsmath, amssymb, graphicx.
+% =====================================================================
+
+% [0:10:57]
+\section{La convergenza uniforme non conserva la discontinuità}
+
+Chiuso il quadro dei teoremi principali sulle successioni di funzioni, restano due
+questioni aperte:
+\begin{enumerate}
+  \item la convergenza uniforme conserva la continuità; conserva anche la
+        \emph{discontinuità}?
+  \item i teoremi visti danno solo condizioni \emph{necessarie}: se una di esse cade, la
+        convergenza uniforme è esclusa; ma se valgono tutte non si può concludere nulla.
+        Manca quindi una condizione \emph{sufficiente}.
+\end{enumerate}
+
+\paragraph{Risposta alla prima domanda.} No: una successione di funzioni discontinue può
+convergere uniformemente a una funzione continua. Si consideri
+\begin{equation}
+f_n(x)=\begin{cases}
+\dfrac{1}{n} & \text{se } x\in\mathbb{Q},\\[2mm]
+0 & \text{se } x\in\mathbb{R}\setminus\mathbb{Q}.
+\end{cases}
+\end{equation}
+Per la densità di $\mathbb{Q}$ e di $\mathbb{R}\setminus\mathbb{Q}$ in $\mathbb{R}$, ogni
+$f_n$ è discontinua in \emph{ogni} punto. Tuttavia $f_n\to f\equiv 0$ puntualmente in
+$\mathbb{R}$, e
+\[
+\sup_{x\in\mathbb{R}}|f_n(x)-0|=\frac{1}{n}\longrightarrow 0,
+\]
+quindi la convergenza è addirittura uniforme e la funzione limite $f\equiv0$ è continua su
+tutto $\mathbb{R}$.
+
+% [0:12:44]
+\paragraph{In aula.} L'esempio è una variante della funzione di Dirichlet; la docente lo
+ha trovato in un libro e lo ripropone perché è controintuitivo: la funzione è
+``totalmente'' discontinua, e ciò nonostante la convergenza uniforme non conserva nulla di
+questa patologia. Quello che succede per la continuità, insomma, non ha un analogo per la
+discontinuità.
+
+% [0:16:37]
+\section{Criteri di Cauchy per le successioni di funzioni}
+
+La risposta alla seconda domanda è che l'unica condizione necessaria \emph{e} sufficiente
+disponibile è il criterio di Cauchy: non quello per la convergenza puntuale, che è già
+noto da Analisi I, ma quello per la convergenza uniforme.
+
+\paragraph{Criterio di Cauchy per la convergenza puntuale.} Siano
+$f_n:I\subseteq\mathbb{R}\to\mathbb{R}$ per ogni $n\in\mathbb{N}$ e
+$f:I\subseteq\mathbb{R}\to\mathbb{R}$. Allora $f_n\to f$ puntualmente in $I$ se e solo se
+\begin{equation}
+\forall x\in I,\ \forall\varepsilon>0\ \ \exists\,\nu_{x,\varepsilon}\in\mathbb{N}:\quad
+|f_n(x)-f_m(x)|<\varepsilon\qquad\forall n,m>\nu_{x,\varepsilon}.
+\end{equation}
+
+% [0:19:25]
+\paragraph{In aula.} Non c'è nulla da dimostrare: fissato $x$, la successione
+$\big(f_n(x)\big)_n$ è una successione \emph{numerica} e l'enunciato è esattamente il
+criterio di Cauchy di Analisi I. L'unica cosa da osservare è che ogni volta che si cambia
+$x$ si ottiene una successione di Cauchy diversa, con un indice $\nu$ suo proprio: quel
+$\nu$ cambia punto per punto.
+
+\paragraph{Criterio di Cauchy per la convergenza uniforme.} Siano $f_n:I\subseteq\mathbb{R}\to\mathbb{R}$ per ogni $n\in\mathbb{N}$ e
+$f:I\subseteq\mathbb{R}\to\mathbb{R}$. Allora $f_n\rightrightarrows f$ in $I$ se e solo se
+\begin{equation}
+\forall\varepsilon>0\ \ \exists\,\nu_{\varepsilon}\in\mathbb{N}:\quad
+|f_n(x)-f_m(x)|<\varepsilon\qquad\forall n,m>\nu_{\varepsilon},\ \forall x\in I.
+\end{equation}
+
+% [0:23:08]
+\paragraph{In aula.} L'unica differenza è la scomparsa della $x$ dalla dipendenza di
+$\nu$, ed è una differenza fortissima: si trova un solo indice $\nu$, lo stesso per tutte
+le successioni numeriche ottenute al variare di $x$. Questa è la condizione che
+\emph{caratterizza} la convergenza uniforme, ed è l'unica condizione sufficiente di cui
+disponiamo.
+
+% [0:24:31]
+\paragraph{In aula.} Attenzione alla notazione. La dipendenza di $\nu$ non va
+necessariamente esplicitata — scrivere $\nu$ e basta è corretto, perché la dipendenza è
+implicita in ciò che precede — ma se la si esplicita deve essere giusta: scrivere
+$\nu_{x,\varepsilon}$ nel criterio uniforme è un errore grave. La docente racconta di un
+candidato che, a un orale recente, aveva scritto le due definizioni (puntuale e uniforme)
+con le stesse dipendenze in entrambe: l'immagine con cui gliel'ha spiegato è che se non si
+guarda fuori e si porta l'ombrello comunque non ci si bagna, mentre se si esce senza, al
+primo temporale ci si bagna.
+
+% [0:27:55]
+\paragraph{In aula.} La dimostrazione del criterio uniforme è lasciata per esercizio: si
+fa esattamente come in Analisi I, l'unico lavoro è ``giocare'' sulla $x$. Un verso è
+facile (si sottrae e si somma $f$ e si usa la disuguaglianza triangolare); l'altro richiede
+di riprendere l'argomento di Analisi I e vedere che cosa succede.
+
